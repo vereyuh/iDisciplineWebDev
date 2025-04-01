@@ -47,10 +47,12 @@ export default StyleSheet.create({
     fontWeight: 'bold',
   },
   sidebar: {
-    width: 250,
-    backgroundColor: '#0052cc',
-    paddingVertical: 30,
+    width: 240,
+    backgroundColor: "#0072E1",
+    padding: 16,
+    height: "100%",
   },
+  
   profile: {
     alignItems: 'center',
     marginBottom: 40,

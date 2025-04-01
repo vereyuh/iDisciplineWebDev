@@ -10,7 +10,7 @@ const Sidebar = () => {
   const menuItems = [
     { name: "Dashboard", icon: "home", screen: "Dashboard" },
     { name: "Student List", icon: "people", screen: "StudentList" }, // Navigate to Student List
-    { name: "Violations", icon: "gavel", screen: "Dashboard" },
+    { name: "Violations", icon: "gavel", screen: "StudentsViolations" },
     { name: "Incident Reports", icon: "report", screen: "Dashboard" },
     { name: "Appointments", icon: "calendar-today", screen: "Dashboard" },
     { name: "Handbook", icon: "book", screen: "Dashboard" },

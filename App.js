@@ -5,6 +5,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import LoginScreen from "./components/auth/LoginScreen";
 import Dashboard from "./components/disciplinaryofficer/Dashboard/Dashboard";
 import StudentList from "./components/disciplinaryofficer/StudentList/StudentList";
+import StudentsViolations from "./components/disciplinaryofficer/Violations/StudentViolations";
+
 
 
 
@@ -17,6 +19,8 @@ export default function App() {
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="Dashboard" component={Dashboard} />
         <Stack.Screen name="StudentList" component={StudentList} /> 
+        <Stack.Screen name="StudentsViolations" component={StudentsViolations} />
+
       </Stack.Navigator>
     </NavigationContainer>
   );
