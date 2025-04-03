@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
-import styles from '../../../styles/dashboardStyles';
+import styles from '../../../styles/DashboardStyles';
 
 const offenders = Array(6).fill({ name: 'User', position: 'Position' });
 
